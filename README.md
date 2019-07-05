@@ -15,3 +15,5 @@ Spec is short for "Specification".
 
 Specification in terms of a test refer to the technical details of a given feature or application which must be fulfilled. The best way to think of this is as the technical specifications for a given unit of code to pass successfully.
 
+#### What is the `it()` function here doing?
+The it() function defines a jasmine test. It is so named because its name makes reading tests almost like reading English. The second argument to the it() function is itself a function, that when executed will probably run some number of expect() functions. expect() functions are used to actually test the things you "expect" to be true.
